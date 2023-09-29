@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HMR sample</title>
+  </head>
+  <body>
+    <h2>Counter</h2>
+    <h2 id="message"></h2>
+    <!-- Provided by Socket.IO for listening to websocket messages -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Code which performs some action after a websocket message is received -->
+    <script src="hmr.js"></script>
+    <!-- Counter application code -->
+    <script src="bundle.js"></script>
+  </body>
+</html>
